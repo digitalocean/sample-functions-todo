@@ -16,7 +16,7 @@ async function main(args) {
     }
 
     const client = await connect();
-    const db = await client.db(process.env.DB_DATABASE);
+    const db = await client.db(process.env.DATABASE);
     const tasksCollection = await db.collection('todotasks');
     const tasks = await tasksCollection.find({ user_id: userId }).toArray();
 
