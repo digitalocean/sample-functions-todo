@@ -1,4 +1,3 @@
 environment:
-  CA_CERT: ${CA_CERT}
   DATABASE: ${DATABASE}
   DATABASE_URL: ${DATABASE_URL}
