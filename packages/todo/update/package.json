@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "mongodb": "^3.6.9",
+    "mongodb": "^4.9.0",
     "http-status-codes": "^2.2.0"
   }
 }
